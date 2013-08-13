@@ -1,0 +1,33 @@
+{
+  "name": "opurl",
+  "version": "1.0.0",
+  "description": "Object-oriented URL utility",
+  "main": "lib/Url.js",
+  "directories": {
+  	"lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --bail --ui qunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/curvedmark/opurl.git"
+  },
+  "keywords": [
+    "url",
+    "utility",
+    "util"
+  ],
+  "author": "Glen Huang <curvedmark@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/curvedmark/opurl/issues"
+  },
+  "dependencies": {
+    "opath": "1.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x"
+  }
+}
